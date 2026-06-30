@@ -1,2 +1,4 @@
 - Fixes `auth:export` and `auth:import` dropping `mfaInfo` data for users with Multi-Factor Authentication enabled.
 - Updated Pub/Sub emulator to version 0.8.34
+- Add `functions:lifecycle:list` and `functions:lifecycle:run` commands to view and run
+  lifecycle hooks in isolation.
